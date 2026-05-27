@@ -20,12 +20,13 @@ import {
 // ── Firebase project config ──────────────────────────────────
 // These are loaded from .env.local (never hardcode in source)
 const firebaseConfig = {
-  apiKey:            process.env.REACT_APP_FIREBASE_API_KEY,
-  authDomain:        process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
-  projectId:         process.env.REACT_APP_FIREBASE_PROJECT_ID,
-  storageBucket:     process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
-  appId:             process.env.REACT_APP_FIREBASE_APP_ID,
+  apiKey: "AIzaSyDrUMIEJ_M5PkECiT8I_RDIhswMvdgAg3w",
+  authDomain: "vivo-retail-app.firebaseapp.com",
+  projectId: "vivo-retail-app",
+  storageBucket: "vivo-retail-app.firebasestorage.app",
+  messagingSenderId: "308833346269",
+  appId: "1:308833346269:web:373b0686b5896beae77134",
+  measurementId: "G-TKB8GF3PS7",
 };
 
 // Initialize Firebase app (safe to call multiple times)
